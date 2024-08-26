@@ -367,6 +367,40 @@ footer {
 
 }
 
+.form-copy {
+    height: 60px;
+    margin: 0px;
+    width: 100%;
+    padding: 0 14px;
+    border: solid 1px #bfbfbf;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+button.btn-copy{
+    padding: 20px 10px;
+    color: #fff;
+    background-color: var(--pink);
+    border-color: var(#f14e98);
+    border-top: solid 2px #f14e90;
+    border-left: solid 2px #f14e90;
+    border-right: solid 2px #f14e20;
+    border-bottom: solid 2px #f14e20;
+}
+button.btn-copy:hover{
+    background-color: #f14e20;
+}
+input#code:focus {
+    outline: none!important;
+}
+.btn-circle {
+    border-radius: 50%;
+    position: relative;
+    top: -29px;
+    float: right;
+    border-color: #f14e20;
+}
+
 /* Media Query */
 
 /* Laptop */
